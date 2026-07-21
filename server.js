@@ -45,6 +45,7 @@ app.get('/get-hash', async (req, res) => {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'application/json, text/plain, */*',
         'Accept-Language': 'en-US,en;q=0.9',
+        'authority': 'service.tvg.com',
         'Cookie': 'tvg-session-id=99d93e6635ce621bdb4d01f12556e4c73ea5dd015565375096b1894b05ee27e2;',
         'Origin': 'https://www.tvg.com',
         'Referer': 'https://www.tvg.com/',
