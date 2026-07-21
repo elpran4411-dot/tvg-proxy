@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
     message: 'TVG Proxy Server funcionando',
     timestamp: new Date().toISOString(),
     endpoints: {
-      getHash: '/get-hash?streamname=NOMBRE_DEL_CANAL'
+      getHash: '/get-hash?streamname=tvg_mbr'
     }
   });
 });
